@@ -130,6 +130,11 @@
 
   <build>
     <plugins>
+    <plugin>
+<groupId>org.owasp</groupId>
+<artifactId>dependency-check-maven</artifactId>
+<version>5.2.1</version>
+</plugin>
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
@@ -273,5 +278,13 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
-
+<reporting>
+<plugins>
+<plugin>
+<groupId>org.owasp</groupId>
+<artifactId>dependency-check-maven</artifactId>
+<version>5.2.1</version>
+</plugin>
+</plugins>
+</reporting>
 </project>
