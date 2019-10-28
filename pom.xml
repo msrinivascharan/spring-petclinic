@@ -294,7 +294,7 @@
                 <artifactId>dependency-check-maven</artifactId>
                 <version>3.2.1</version>
                 <configuration>
-                    <format>xml</format>
+                    <format>XML</format>
                     <centralAnalyzerEnabled>false</centralAnalyzerEnabled>
                     <versionCheckEnabled>true</versionCheckEnabled>
                 </configuration>
