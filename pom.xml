@@ -278,7 +278,7 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
-<reporting>
+<!-- <reporting>
 <plugins>
 <plugin>
 <groupId>org.owasp</groupId>
@@ -286,7 +286,7 @@
 <version>5.2.1</version>
 </plugin>
 </plugins>
-</reporting>
+</reporting>  -->
     <reporting>
       <plugins>
             <plugin>
