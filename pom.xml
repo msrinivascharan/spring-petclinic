@@ -278,42 +278,18 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
-<<<<<<< HEAD
-
-=======
-<!-- <reporting>
-<plugins>
-<plugin>
-<groupId>org.owasp</groupId>
-<artifactId>dependency-check-maven</artifactId>
-<version>5.2.1</version>
-</plugin>
-</plugins>
-</reporting>  -->
->>>>>>> refs/remotes/origin/master
-    <reporting>
+  
+  <reporting>
       <plugins>
             <plugin>
                 <groupId>org.owasp</groupId>
                 <artifactId>dependency-check-maven</artifactId>
-<<<<<<< HEAD
                 <version>5.2.2</version>
-=======
-                <version>3.2.1</version>
->>>>>>> refs/remotes/origin/master
                 <configuration>
                     <format>XML</format>
-<<<<<<< HEAD
-=======
-                    <centralAnalyzerEnabled>false</centralAnalyzerEnabled>
-                    <versionCheckEnabled>true</versionCheckEnabled>
->>>>>>> refs/remotes/origin/master
                 </configuration>
-<<<<<<< HEAD
-                            </plugin>
-=======
+           
             </plugin>
->>>>>>> refs/remotes/origin/master
         </plugins>
     </reporting>
 </project>
