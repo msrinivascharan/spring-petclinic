@@ -130,11 +130,14 @@
 
   <build>
     <plugins>
-  <!--    <plugin>
+     <plugin>
 <groupId>org.owasp</groupId>
 <artifactId>dependency-check-maven</artifactId>
 <version>5.2.2</version>
-</plugin> -->
+<configuration>
+                    <format>ALL</format>
+                </configuration>
+</plugin> 
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
@@ -279,17 +282,17 @@
     </pluginRepository>
   </pluginRepositories>
   
-  <reporting>
+ <!--  <reporting>
       <plugins>
             <plugin>
                 <groupId>org.owasp</groupId>
                 <artifactId>dependency-check-maven</artifactId>
                 <version>5.2.2</version>
                 <configuration>
-                    <format>XML</format>
+                    <format>ALL</format>
                 </configuration>
            
             </plugin>
         </plugins>
-    </reporting>
+    </reporting> -->
 </project>
