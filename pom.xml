@@ -295,15 +295,9 @@
                 <version>3.2.1</version>
                 <configuration>
                     <format>ALL</format>
+                    <centralAnalyzerEnabled>false</centralAnalyzerEnabled>
+                    <versionCheckEnabled>true</versionCheckEnabled>
                 </configuration>
-                <reportSets>
-                    <reportSet>
-                        <id>dependency-check-aggregate</id>
-                        <reports>
-                            <report>aggregate</report>
-                        </reports>
-                    </reportSet>
-                </reportSets>
             </plugin>
         </plugins>
     </reporting>
